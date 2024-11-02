@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="real_robot" type="load_read.py" name="waypointsLoader" output="screen"></node>
+    <node pkg="real_robot" type="pose.py" name="pose_get" output="screen"/>
+    <node pkg="real_robot" type="localload_read.py" name="local_path" output="screen"/>
+    <node pkg="real_robot" type="robot_persuit.py" name="robot_persuit" output="screen"/>
+</launch>

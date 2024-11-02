@@ -1,0 +1,8 @@
+prefix=/home/li/graduation_design/install
+
+Name: real_robot
+Description: Description of real_robot
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

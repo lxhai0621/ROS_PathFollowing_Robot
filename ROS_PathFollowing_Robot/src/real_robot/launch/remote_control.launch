@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="real_robot" type="rx.py" name="rx" output="screen"/>
+    <node pkg="real_robot" type="remote_control.py" name="remote_control" output="screen"></node>
+</launch>

@@ -1,0 +1,2 @@
+algorithm_simulation:car_model:real_robot
+-DCATKIN_DEVEL_PREFIX=/home/li/graduation_design/devel -DCMAKE_INSTALL_PREFIX=/home/li/graduation_design/install -G Unix Makefiles
