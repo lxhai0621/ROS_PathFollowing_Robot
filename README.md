@@ -10,7 +10,7 @@
 4. **遥控器**：FUTABA遥控器及其配套接收机。
 
 ## Gazebo仿真
-可在https://github.com/lxhai0621/ROS_BalanceCar_PathFollowing查看
+前往https://github.com/lxhai0621/ROS_BalanceCar_PathFollowing
 
 ## 项目说明
 定位采用了ROS官方nmea功能包，修改了一部分以适配中海达\
