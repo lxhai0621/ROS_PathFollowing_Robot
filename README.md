@@ -33,7 +33,7 @@ pip install scipy
 sudo apt-get install ros-melodic-nmea-navsat-driver libgps-dev
 ```
 ### 3.nmea_navset_driver说明
-nmea_navsat_driver提供四个节点：nmea_topic_driver，nmea_serial_driver，nmea_topic_serial_reader和nmea_socket_driver\
+- nmea_navsat_driver提供四个节点：nmea_topic_driver，nmea_serial_driver，nmea_topic_serial_reader和nmea_socket_driver
 - nmea_topic_serial_reader节点：此节点从串口读入GPS数据，然后封装为nmea_msgs/Sentence数据格式，发布话题nmea_sentence。
 - nmea_topic_driver节点：此节点订阅话题nmea_sentence，然后根据NMEA0184协议解析，并发布解析后的数据，发布话题为：经纬度/fix，速度/vel，gps时间/time_reference和航向角/heading。
 - nmea_serial_driver节点：此节点从串口读数据，直接解析发布数据，相当于nmea_topic_driver节点和nmea_topic_serial_reader节点的结合体。
